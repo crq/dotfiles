@@ -1,9 +1,7 @@
-# To link files
-ls -s <target> <link>
+To link files
+`ls -s <target> <link>`
 
-brew install tmux
+`brew install tmux`
 
-brew install macvim --override-system-vim
-
-# links to /Applications
-brew linkapps macvim
+`brew install macvim --override-system-vim`
+`brew linkapps macvim # links macvim to \Applications\`
