@@ -28,6 +28,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins go under here...
 Plugin 'ervandew/supertab'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
