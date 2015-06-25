@@ -1,4 +1,4 @@
-To link files: `ls -s <target> <link>`
+To link files: `ln -s <target> <link>`
 
 `brew install tmux`
 
