@@ -29,6 +29,7 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins go under here...
 Plugin 'ervandew/supertab'
 Plugin 'scrooloose/nerdtree'
+Plugin 'ddollar/nerdcommenter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -42,8 +43,11 @@ filetype plugin indent on    " required
 " :PluginSearch(!) foo - search (or refresh cache first) for foo
 " :PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
 "
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
+"see :h vundle f more details or wiki for FAQ
+"Put your non-Plugin stuff after this line
 
 :let mapleader = ","
 :syntax enable
+
+" Mappings
+:nnoremap <leader>c :NERDComInvertComment<CR>
