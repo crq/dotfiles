@@ -55,5 +55,8 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+"show line numbers
+set number
+
 " Mappings
 :nnoremap <leader>c :NERDComInvertComment<CR>
