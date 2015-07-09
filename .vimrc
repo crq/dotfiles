@@ -46,8 +46,14 @@ filetype plugin indent on    " required
 "see :h vundle f more details or wiki for FAQ
 "Put your non-Plugin stuff after this line
 
+"Set mapleader
 :let mapleader = ","
 :syntax enable
+
+"set tab and indentation spacing
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 " Mappings
 :nnoremap <leader>c :NERDComInvertComment<CR>
