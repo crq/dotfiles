@@ -66,6 +66,7 @@ set number
 
 " Mappings
 :nnoremap <leader>c :NERDComInvertComment<CR>
+:map <leader>n :NERDTreeToggle<CR>
 
 "autosave everything on lost focus and ignore errors
 au FocusLost * silent! wa
