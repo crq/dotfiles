@@ -64,3 +64,9 @@ set number
 
 " Mappings
 :nnoremap <leader>c :NERDComInvertComment<CR>
+
+"autosave everything on lost focus and ignore errors
+au FocusLost * silent! wa
+
+"save on buffer switch
+set autowriteall
