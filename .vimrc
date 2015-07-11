@@ -70,3 +70,9 @@ au FocusLost * silent! wa
 
 "save on buffer switch
 set autowriteall
+
+"font settings
+set guifont=Menlo\ Regular:h13
+
+"line on 80th column
+set cc=80
