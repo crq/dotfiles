@@ -65,7 +65,8 @@ set softtabstop=2
 set number
 
 " Mappings
-:nnoremap <leader>c :NERDComInvertComment<CR>
+:nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
+:vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 :map <leader>n :NERDTreeToggle<CR>
 
 "autosave everything on lost focus and ignore errors
