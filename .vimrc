@@ -69,6 +69,9 @@ set number
 :vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 :map <leader>n :NERDTreeToggle<CR>
 
+"do not use swapfile
+set noswapfile
+
 "autosave everything on lost focus and ignore errors
 au FocusLost * silent! wa
 
