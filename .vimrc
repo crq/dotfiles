@@ -64,10 +64,13 @@ set softtabstop=2
 "show line numbers
 set number
 
-" Mappings
+"Mappings
 :nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 :vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 :map <leader>n :NERDTreeToggle<CR>
+
+"Do not wrap text
+set nowrap
 
 "do not use swapfile
 set noswapfile
