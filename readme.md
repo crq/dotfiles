@@ -27,6 +27,8 @@ Link the following files:
 
 `brew install gpg2`
 
+`brew install caskroom/cask/brew-cask`
+
 ##### Configure git:
 
 `git config --global user.name "FULL NAME"`
@@ -48,3 +50,23 @@ After linking .gitignore_global:
 Install Vundle to manage packages `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 Install pluggins using Vundle `:PluginInstall`
+
+##### Install Postgesql
+
+`brew install postgesql`
+
+Create db for user:
+
+``createdb `whoami` ``
+
+To log in with user account:
+
+`psql`
+
+To configure for Autostart:
+
+```
+mkdir -p ~/Library/LaunchAgents
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LanchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+```
