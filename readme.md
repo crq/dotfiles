@@ -29,6 +29,10 @@ Link the following files:
 
 `brew install caskroom/cask/brew-cask`
 
+`brew install the_silver_searcher`
+
+`brew cask install google-chrome`
+
 ##### Configure git:
 
 `git config --global user.name "FULL NAME"`
