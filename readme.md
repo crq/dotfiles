@@ -35,9 +35,13 @@ Link the following files:
 
 `git config --global user.email "GITHUBUSERNAME@users.noreply.github.com"`
 
-After linking .gitignore_global:
+After linking .gitignore_global: `git config --global core.excludesfile ~/.gitignore_global`
 
-`git config --global core.excludesfile ~/.gitignore_global`
+Check if osxkeychain helper is installed: `git credential-osxkeychain`
+
+If not follow instructions on: [https://help.github.com/articles/caching-your-github-password-in-git/]
+
+Configure git to use the osxkeychain helper: `git config --global credential.helper osxkeychain`
 
 ##### Install RVM:
 
