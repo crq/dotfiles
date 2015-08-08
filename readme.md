@@ -53,6 +53,14 @@ Configure git to use the osxkeychain helper: `git config --global credential.hel
 
 `\curl -sSL https://get.rvm.io | bash -s stable`
 
+[RVM Site/Instructions](https://rvm.io/)
+
+##### Install NVM:
+
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash`
+
+[NVM Repo/Instructions](https://github.com/creationix/nvm)
+
 ##### Install VIM plugins
 
 Install Vundle to manage packages `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
