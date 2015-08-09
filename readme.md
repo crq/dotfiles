@@ -1,4 +1,4 @@
-##### Link files.
+##### Link files:
 
 To link files: `ln -s <target> <link>`
 
@@ -67,7 +67,7 @@ Install Vundle to manage packages `git clone https://github.com/gmarik/Vundle.vi
 
 Install pluggins using Vundle `:PluginInstall`
 
-##### Install Postgesql
+##### Install Postgesql:
 
 `brew install postgesql`
 
@@ -86,3 +86,7 @@ mkdir -p ~/Library/LaunchAgents
 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LanchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 ```
+
+##### Set terminal settings:
+
+After opening terminal navigate to Terminal -> Preferences and import `cq_custom.terminal`.
