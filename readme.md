@@ -61,6 +61,10 @@ Configure git to use the osxkeychain helper: `git config --global credential.hel
 
 [NVM Repo/Instructions](https://github.com/creationix/nvm)
 
+To install latest stable version of node: `nvm install stable`
+
+To set latest stable as the default version of node: `nvm alias default stable`
+
 ##### Install VIM plugins
 
 Install Vundle to manage packages `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
