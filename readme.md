@@ -90,3 +90,5 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 ##### Set terminal settings:
 
 After opening terminal navigate to Terminal -> Preferences and import `cq_custom.terminal`.
+
+Note: You can view hidden files by pressing `shift + command + period`
