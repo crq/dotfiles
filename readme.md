@@ -79,7 +79,7 @@ Install pluggins using Vundle `:PluginInstall`
 
 Create db for user:
 
-``createdb `whoami` ``
+``createdb `whoami` # note the backticks``
 
 To log in with user account:
 
