@@ -29,6 +29,8 @@ Link the following files:
 
 `brew install caskroom/cask/brew-cask`
 
+`brew install ctags`
+
 `brew install the_silver_searcher`
 
 `brew cask install google-chrome`
