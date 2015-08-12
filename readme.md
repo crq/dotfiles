@@ -45,9 +45,11 @@ After linking .gitignore_global: `git config --global core.excludesfile ~/.gitig
 
 Check if osxkeychain helper is installed: `git credential-osxkeychain`
 
-If not follow instructions on: [https://help.github.com/articles/caching-your-github-password-in-git/]
+If not follow instructions on: <https://help.github.com/articles/caching-your-github-password-in-git/>
 
 Configure git to use the osxkeychain helper: `git config --global credential.helper osxkeychain`
+
+To configure Github for SSH: <https://help.github.com/articles/generating-ssh-keys/>
 
 ##### Install RVM:
 
@@ -69,9 +71,11 @@ To set latest stable as the default version of node: `nvm alias default stable`
 
 ##### Install VIM plugins
 
-Install Vundle to manage packages `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+Install Vundle to manage packages:
 
-Install pluggins using Vundle `:PluginInstall`
+`git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+Install pluggins using Vundle: `:PluginInstall`
 
 ##### Install Postgesql:
 
