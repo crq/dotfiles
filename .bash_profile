@@ -7,6 +7,11 @@ export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GI
 # Aliases
 alias chrome="open -a 'Google Chrome'"
 
+# Bash completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
 export NVM_DIR="/Users/charles/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 

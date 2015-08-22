@@ -95,6 +95,8 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 `brew install the_silver_searcher`
 
+`brew install bash-completion`
+
 `brew cask install google-chrome`
 
 ##### Set terminal settings:
