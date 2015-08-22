@@ -39,6 +39,7 @@ Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/' }
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'slim-template/vim-slim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
