@@ -1,15 +1,30 @@
+#### Install with install script:
+
+Install XCode from the Apple Store and open.
+
+**WARNING:** This script is untested.
+
+`sudo sh ~/.dotfiles/script.sh`
+
+#### Install everything manually:
+
+##### Install XCode from the App Store and open.
+
 ##### Link files:
 
 To link files: `ln -s <target> <link>`
 
-Link the following files:
-* .bash_profile
-* .gitignore_global
-* .vimrc
-* .gvimrc
-* .tmux.conf
+Link files from repo:
 
-##### Install XCode from the App Store and open.
+`ln -s ~/.dotfiles/.bash_profile ~/.bash_profile`
+
+`ln -s ~/.dotfiles/.gitignore_global ~/.bash_profile`
+
+`ln -s ~/.dotfiles/.vimrc ~/.vimrc`
+
+`ln -s ~/.dotfiles/.gvimrc ~/.gvimrc`
+
+`ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf`
 
 ##### Install Homebrew
 

@@ -8,7 +8,7 @@ export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GI
 alias chrome="open -a 'Google Chrome'"
 
 # Custom prompt
-PS1="\n\e[0;34m\]\w\[\e[0;33m\]\$(__git_ps1)\[\e[0;32m\] ➤ \[\e[0m\]"
+PS1="\e[0;34m\]\w\[\e[0;33m\]\$(__git_ps1)\[\e[0;32m\] ➤ \[\e[0m\]"
 
 # Bash completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
