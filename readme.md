@@ -48,18 +48,6 @@ Configure git to use the osxkeychain helper: `git config --global credential.hel
 
 To configure Github for SSH: <https://help.github.com/articles/generating-ssh-keys/>
 
-##### Install and configure VIM
-
-`brew install macvim --override-system-vim`
-
-`brew linkapps macvim # links macvim to \Applications\`
-
-Install Vundle to manage packages:
-
-`git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-
-Install pluggins using Vundle: `:PluginInstall`
-
 ##### Install RVM
 
 `brew install gpg2`
@@ -113,6 +101,18 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 `brew install bash-completion`
 
 `brew cask install google-chrome`
+
+##### Install and configure VIM
+
+`brew install macvim --override-system-vim`
+
+`brew linkapps macvim # links macvim to \Applications\`
+
+Install Vundle to manage packages:
+
+`git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+Install pluggins using Vundle: `:PluginInstall`
 
 ##### Set terminal settings:
 

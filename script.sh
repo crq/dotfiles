@@ -23,12 +23,6 @@ git config --global user.email $GIT_EMAIL
 git config --global core.excludesfile ~/.gitignore_global
 git config --global credential.helper osxkeychain # Will only work if credential helper is installed.
 
-# Configure VIM
-brew install macvim --override-system-vim
-brew linkapps macvim
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
-
 # Install RVM
 brew install gpg2
 gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
@@ -51,3 +45,9 @@ brew install ctags
 brew install the_silver_searcher
 brew install bash-completion
 brew cask install google-chrome
+
+# Configure VIM
+brew install macvim --override-system-vim
+brew linkapps macvim
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
