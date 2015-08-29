@@ -2,6 +2,8 @@
 
 Install XCode from the Apple Store and open.
 
+Install fonts in font folder by dragging into User in Font Book.
+
 **WARNING:** This script is untested.
 
 `sudo sh ~/.dotfiles/script.sh`

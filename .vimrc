@@ -89,3 +89,6 @@ set autowriteall
 
 "line on 80th column
 set cc=80
+
+"Airline to use Powerline fonts
+let g:airline_powerline_fonts = 1
