@@ -27,7 +27,6 @@ Plugin 'gmarik/Vundle.vim'
 "Plugin 'user/L9', {'name': 'newL9'}
 
 " Plugins go under here...
-Plugin 'ervandew/supertab'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ddollar/nerdcommenter'
 Plugin 'kien/ctrlp.vim'
@@ -43,6 +42,7 @@ Plugin 'slim-template/vim-slim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
