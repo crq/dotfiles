@@ -45,6 +45,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'valloric/youcompleteme'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'bling/vim-bufferline'
+Plugin 'vim-scripts/searchcomplete'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
