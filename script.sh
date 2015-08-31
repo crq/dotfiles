@@ -42,6 +42,7 @@ createdb `whoami`
 brew install caskroom/cask/brew-cask
 brew install tmux
 brew install ctags
+brew install cmake
 brew install the_silver_searcher
 brew install bash-completion
 brew cask install google-chrome
@@ -51,3 +52,4 @@ brew install macvim --override-system-vim
 brew linkapps macvim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+~/.vim/bundle/youcompleteme/install.py
