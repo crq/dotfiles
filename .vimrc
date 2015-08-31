@@ -44,6 +44,7 @@ Plugin 'bling/vim-airline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'valloric/youcompleteme'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'bling/vim-bufferline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -94,3 +95,6 @@ set cc=80
 
 "Airline to use Powerline fonts
 let g:airline_powerline_fonts = 1
+
+"Bufferline doesn't echo to command bar
+let g:bufferline_echo = 0
