@@ -98,6 +98,8 @@ set cc=80
 let g:airline_powerline_fonts = 1
 "Airline always show
 set laststatus=2
+"Fix Airline timeout
+set ttimeoutlen=50
 
 "Bufferline doesn't echo to command bar
 let g:bufferline_echo = 0
