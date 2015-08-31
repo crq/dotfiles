@@ -62,44 +62,46 @@ filetype plugin indent on    " required
 "see :h vundle f more details or wiki for FAQ
 "Put your non-Plugin stuff after this line
 
-"Set mapleader
+" Set mapleader
 :let mapleader = ","
 :syntax enable
 
-"set tab and indentation spacing
+" Set tab and indentation spacing
 set expandtab
 set shiftwidth=2
 set softtabstop=2
 
-"show line numbers
+" Show line numbers
 set number
 
-"Mappings
+" Mappings
 :nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 :vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 :map <leader>n :NERDTreeToggle<CR>
 
-"Do not wrap text
+" Do not wrap text
 set nowrap
 
-"do not use swapfile
+" Do not use swapfile
 set noswapfile
 
-"autosave everything on lost focus and ignore errors
+" Autosave everything on lost focus and ignore errors
 au FocusLost * silent! wa
 
-"save on buffer switch
+" Save on buffer switch
 set autowriteall
 
-"line on 80th column
+" Line on 80th column
 set cc=80
 
-"Airline to use Powerline fonts
+" Airline plugin settings
+" Airline to use Powerline fonts
 let g:airline_powerline_fonts = 1
-"Airline always show
+" Airline always show
 set laststatus=2
-"Fix Airline timeout
+" Fix Airline timeout
 set ttimeoutlen=50
 
-"Bufferline doesn't echo to command bar
+" VIM-Bufferline plugin settings
+" Bufferline doesn't echo to command bar
 let g:bufferline_echo = 0
