@@ -7,7 +7,7 @@ GIT_EMAIL="crq@users.noreply.github.com"
 
 # Link files
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
-ln -s ~/.dotfiles/.gitignore_global ~/.bash_profile
+ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gvimrc ~/.gvimrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
@@ -21,7 +21,8 @@ brew install git
 git config --global user.name $NAME
 git config --global user.email $GIT_EMAIL
 git config --global core.excludesfile ~/.gitignore_global
-git config --global credential.helper osxkeychain # Will only work if credential helper is installed.
+# NOTE: Will only work if credential helper is installed.
+git config --global credential.helper osxkeychain
 
 # Install RVM
 brew install gpg2
@@ -33,9 +34,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | b
 
 # Install Postgresql
 brew install postgesql
+# Configure Postgresql for Autostart
 mkdir -p ~/Library/LaunchAgents
 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LanchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+# Create DB
 createdb `whoami`
 
 # Install homebrew packages
@@ -49,6 +52,7 @@ brew cask install google-chrome
 
 # Configure VIM
 brew install macvim --override-system-vim
+# Links macvim to Applications folder
 brew linkapps macvim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall

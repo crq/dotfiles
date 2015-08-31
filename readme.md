@@ -1,68 +1,32 @@
 #### Install with install script:
 
+##### Preconfig steps
+
 Install XCode from the Apple Store and open.
 
-Install fonts in font folder by dragging into User in Font Book.
+Install fonts in font folder by dragging into Font Book.
+
+##### Run script
 
 **WARNING:** This script is untested.
 
 `sudo sh ~/.dotfiles/script.sh`
 
-#### Install everything manually:
+##### Set terminal settings:
 
-##### Install XCode from the App Store and open.
+After opening terminal navigate to Terminal -> Preferences and import `cq_custom.terminal`.
 
-##### Link files:
+Note: You can view hidden files by pressing `shift + command + period`
 
-To link files: `ln -s <target> <link>`
+#### Notes
 
-Link files from repo:
+To check if osxkeychain helper is installed: `git credential-osxkeychain`
 
-`ln -s ~/.dotfiles/.bash_profile ~/.bash_profile`
-
-`ln -s ~/.dotfiles/.gitignore_global ~/.bash_profile`
-
-`ln -s ~/.dotfiles/.vimrc ~/.vimrc`
-
-`ln -s ~/.dotfiles/.gvimrc ~/.gvimrc`
-
-`ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf`
-
-##### Install Homebrew
-
-`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-##### Configure Git
-
-`brew install git`
-
-`git config --global user.name "FULL NAME"`
-
-`git config --global user.email "GITHUBUSERNAME@users.noreply.github.com"`
-
-After linking .gitignore_global: `git config --global core.excludesfile ~/.gitignore_global`
-
-Check if osxkeychain helper is installed: `git credential-osxkeychain`
-
-If not follow instructions on: <https://help.github.com/articles/caching-your-github-password-in-git/>
-
-Configure git to use the osxkeychain helper: `git config --global credential.helper osxkeychain`
+Credential helper info: <https://help.github.com/articles/caching-your-github-password-in-git/>
 
 To configure Github for SSH: <https://help.github.com/articles/generating-ssh-keys/>
 
-##### Install RVM
-
-`brew install gpg2`
-
-`gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3`
-
-`\curl -sSL https://get.rvm.io | bash -s stable`
-
 [RVM Site/Instructions](https://rvm.io/)
-
-##### Install NVM
-
-`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash`
 
 [NVM Repo/Instructions](https://github.com/creationix/nvm)
 
@@ -70,54 +34,9 @@ To install latest stable version of node: `nvm install stable`
 
 To set latest stable as the default version of node: `nvm alias default stable`
 
-##### Install Postgesql
+Create Postgresql db for user: ``createdb `whoami` # note the backticks``
 
-`brew install postgesql`
+To log in to Postgresql with user account: `psql`
 
-Create db for user:
+To install pluggins using Vundle: `:PluginInstall`
 
-``createdb `whoami` # note the backticks``
-
-To log in with user account:
-
-`psql`
-
-To configure for Autostart:
-
-```
-mkdir -p ~/Library/LaunchAgents
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LanchAgents
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-```
-
-##### Install homebrew packages
-
-`brew install caskroom/cask/brew-cask`
-
-`brew install tmux`
-
-`brew install ctags`
-
-`brew install the_silver_searcher`
-
-`brew install bash-completion`
-
-`brew cask install google-chrome`
-
-##### Install and configure VIM
-
-`brew install macvim --override-system-vim`
-
-`brew linkapps macvim # links macvim to \Applications\`
-
-Install Vundle to manage packages:
-
-`git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-
-Install pluggins using Vundle: `:PluginInstall`
-
-##### Set terminal settings:
-
-After opening terminal navigate to Terminal -> Preferences and import `cq_custom.terminal`.
-
-Note: You can view hidden files by pressing `shift + command + period`
