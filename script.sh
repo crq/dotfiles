@@ -51,9 +51,8 @@ brew install bash-completion
 brew cask install google-chrome
 
 # Configure VIM
-brew install macvim --override-system-vim
+brew install macvim --override-system-vim --with-cscope --with-lua
 # Links macvim to Applications folder
 brew linkapps macvim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
-~/.vim/bundle/youcompleteme/install.py
