@@ -1,6 +1,6 @@
-#### Install with install script:
+#### Configuration steps
 
-##### Preconfig steps
+##### Preconfig
 
 Install XCode from the Apple Store and open.
 
@@ -12,7 +12,7 @@ Install fonts in font folder by dragging into Font Book.
 
 `sudo sh ~/.dotfiles/script.sh`
 
-##### Set terminal settings:
+##### Set terminal settings
 
 After opening terminal navigate to Terminal -> Preferences and import `cq_custom.terminal`.
 
@@ -20,23 +20,34 @@ Note: You can view hidden files by pressing `shift + command + period`
 
 #### Notes
 
+##### Git
+
 To check if osxkeychain helper is installed: `git credential-osxkeychain`
 
-Credential helper info: <https://help.github.com/articles/caching-your-github-password-in-git/>
+[Github Credential Helper info](https://help.github.com/articles/caching-your-github-password-in-git/)
 
-To configure Github for SSH: <https://help.github.com/articles/generating-ssh-keys/>
+[Github with SSH instructions](https://help.github.com/articles/generating-ssh-keys/)
 
-[RVM Site/Instructions](https://rvm.io/)
+##### RVM
 
-[NVM Repo/Instructions](https://github.com/creationix/nvm)
+[RVM site/instructions](https://rvm.io/)
+
+##### Node
+
+[NVM repo/instructions](https://github.com/creationix/nvm)
 
 To install latest stable version of node: `nvm install stable`
 
 To set latest stable as the default version of node: `nvm alias default stable`
 
+##### Postgresql
+
 Create Postgresql db for user: ``createdb `whoami` # note the backticks``
 
 To log in to Postgresql with user account: `psql`
 
-To install pluggins using Vundle: `:PluginInstall`
+##### VIM
 
+To install plugins from VIM: `:PluginInstall`
+
+To install VIM plugins from terminal: `vim +PluginInstall +qall`
