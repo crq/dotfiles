@@ -46,13 +46,16 @@ brew install caskroom/cask/brew-cask
 brew install tmux
 brew install ctags
 brew install cmake
+brew install python
 brew install the_silver_searcher
 brew install bash-completion
 brew cask install google-chrome
 
 # Configure VIM
-brew install macvim --override-system-vim --with-cscope --with-lua
+brew install macvim --override-system-vim --with-cscope
 # Links macvim to Applications folder
 brew linkapps macvim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+# Compile YouCompleteMe VIM plugin
+~/.vim/bundle/YouCompleteMe/install.py --clang-completer
