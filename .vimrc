@@ -96,8 +96,9 @@ set autowriteall
 " Line on 80th column
 set cc=80
 
-" Powerline/Airline always show
+" Powerline plugin settings
 set laststatus=2
+set noshowmode
 
 " Utilisnips plugin settings
 let g:UltiSnipsExpandTrigger="<c-k>"
