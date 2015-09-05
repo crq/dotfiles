@@ -40,7 +40,6 @@ Plugin 'tpope/vim-bundler'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'slim-template/vim-slim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/searchcomplete'
@@ -48,6 +47,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-endwise'
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -96,13 +96,8 @@ set autowriteall
 " Line on 80th column
 set cc=80
 
-" Airline plugin settings
-" Airline to use Powerline fonts
-let g:airline_powerline_fonts = 1
-" Airline always show
+" Powerline/Airline always show
 set laststatus=2
-" Fix Airline timeout
-set ttimeoutlen=50
 
 " Utilisnips plugin settings
 let g:UltiSnipsExpandTrigger="<c-k>"
