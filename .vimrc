@@ -80,6 +80,10 @@ set number
 nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 map <leader>n :NERDTreeToggle<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " Do not wrap text
 set nowrap
