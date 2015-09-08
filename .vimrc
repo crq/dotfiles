@@ -109,3 +109,11 @@ set timeoutlen=1000 ttimeoutlen=0
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" Change cursor
+if &term =~ '^xterm'
+  " line in insert mode
+  let &t_SI .= "\<Esc>[5 q"
+  " solid block on normal mode
+  let &t_EI .= "\<Esc>[2 q"
+endif
