@@ -103,6 +103,7 @@ set cc=80
 " Powerline plugin settings
 set laststatus=2
 set noshowmode
+set timeoutlen=1000 ttimeoutlen=0
 
 " Utilisnips plugin settings
 let g:UltiSnipsExpandTrigger="<c-k>"
