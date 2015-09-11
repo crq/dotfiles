@@ -42,7 +42,6 @@ Plugin 'slim-template/vim-slim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'vim-scripts/searchcomplete'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
@@ -85,8 +84,13 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-nnoremap <leader>w :FixWhitespace<CR>
-vnoremap <leader>w :FixWhitespace<CR>
+nnoremap <leader>r :FixWhitespace<CR>
+vnoremap <leader>r :FixWhitespace<CR>
+map <leader> <Plug>(easymotion-prefix)
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
 
 " Do not wrap text
 set nowrap
@@ -120,3 +124,6 @@ if &term =~ '^xterm'
   " solid block on normal mode
   let &t_EI .= "\<Esc>[2 q"
 endif
+
+" Easymotion not case sensitive
+let g:EasyMotion_smartcase = 1
