@@ -11,6 +11,7 @@ ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gvimrc ~/.gvimrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/base16-shell/ ~/.config/base16-shell
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -49,6 +50,7 @@ brew install cmake
 brew install python
 brew install the_silver_searcher
 brew install bash-completion
+brew cask install iterm2
 brew cask install google-chrome
 
 # Configure VIM

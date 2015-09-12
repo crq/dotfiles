@@ -7,6 +7,10 @@ export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GI
 # Aliases
 alias chrome="open -a 'Google Chrome'"
 
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-flat.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
 # Custom prompt
 PS1="\[\e[0;34m\]\w\[\e[0;33m\]\$(__git_ps1)\[\e[0;32m\] ➤ \[\e[0m\]"
 

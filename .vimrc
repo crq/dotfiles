@@ -64,6 +64,25 @@ filetype plugin indent on    " required
 "see :h vundle f more details or wiki for FAQ
 "Put your non-Plugin stuff after this line
 
+" Settings for terminals only
+if &term =~ '^xterm'
+  " line in insert mode
+  let &t_SI .= "\<Esc>[5 q"
+  " solid block on normal mode
+  let &t_EI .= "\<Esc>[2 q"
+endif
+
+" Settings to apply if not in Apple Terminal
+if $TERM_PROGRAM != 'Apple_Terminal'
+  " Color scheme settings
+  let base16colorspace=256
+  colorscheme base16-flat
+  set background=dark
+
+  " Highlight current line
+  set cursorline
+endif
+
 " Set mapleader
 let mapleader = ","
 syntax enable
@@ -116,14 +135,6 @@ set timeoutlen=1000 ttimeoutlen=0
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" Change cursor
-if &term =~ '^xterm'
-  " line in insert mode
-  let &t_SI .= "\<Esc>[5 q"
-  " solid block on normal mode
-  let &t_EI .= "\<Esc>[2 q"
-endif
 
 " Easymotion not case sensitive
 let g:EasyMotion_smartcase = 1
