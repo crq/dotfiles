@@ -48,6 +48,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-endwise'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -65,9 +66,9 @@ filetype plugin indent on    " required
 "Put your non-Plugin stuff after this line
 
 " Settings for terminals only
-if &term =~ '^xterm'
+if &term =~ '^xterm' || &term == 'screen-256color'
   " line in insert mode
-  let &t_SI .= "\<Esc>[5 q"
+  let &t_SI .= "\<Esc>[6 q"
   " solid block on normal mode
   let &t_EI .= "\<Esc>[2 q"
 endif
@@ -99,10 +100,6 @@ set number
 nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 map <leader>n :NERDTreeToggle<CR>
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
 nnoremap <leader>r :FixWhitespace<CR>
 vnoremap <leader>r :FixWhitespace<CR>
 map <leader> <Plug>(easymotion-prefix)
