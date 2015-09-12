@@ -73,7 +73,7 @@ if &term =~ '^xterm'
 endif
 
 " Settings to apply if not in Apple Terminal
-if $TERM_PROGRAM != 'Apple_Terminal'
+if $TERM_PROGRAM != 'Apple_Terminal' || has('gui_running')
   " Color scheme settings
   let base16colorspace=256
   colorscheme base16-flat
