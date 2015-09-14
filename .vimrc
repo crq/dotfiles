@@ -49,6 +49,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'thoughtbot/vim-rspec'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -96,17 +97,29 @@ set softtabstop=2
 " Show line numbers
 set number
 
-" Mappings
+" NERDCommenter mappings
 nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
+
+" NERDTree mappings
 map <leader>n :NERDTreeToggle<CR>
+
+" Vim trailing whitespace mappings
 nnoremap <leader>r :FixWhitespace<CR>
 vnoremap <leader>r :FixWhitespace<CR>
+
+" Easymotion mappings
 map <leader> <Plug>(easymotion-prefix)
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
+
+" RSpec.vim mappings
+map <Leader>c :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 " Do not wrap text
 set nowrap
@@ -135,3 +148,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " Easymotion not case sensitive
 let g:EasyMotion_smartcase = 1
+
+" Vim-rspec settings
+let g:rspec_runner = "os_x_iterm"
