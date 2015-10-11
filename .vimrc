@@ -31,7 +31,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ddollar/nerdcommenter'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
-Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'rking/ag.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/' }
@@ -50,6 +49,7 @@ Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'ntpeters/vim-better-whitespace'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -105,8 +105,8 @@ vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 map <leader>n :NERDTreeToggle<CR>
 
 " Vim trailing whitespace mappings
-nnoremap <leader>r :FixWhitespace<CR>
-vnoremap <leader>r :FixWhitespace<CR>
+nnoremap <leader>r :StripWhitespace<CR>
+vnoremap <leader>r :StripWhitespace<CR>
 
 " Easymotion mappings
 map <leader> <Plug>(easymotion-prefix)
