@@ -7,6 +7,11 @@ export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GI
 # Aliases
 alias chrome="open -a 'Google Chrome'"
 
+# Load custom bash for different systems
+if [ -f ~/.bash_custom ]; then
+  source ~/.bash_custom
+fi
+
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-flat.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
@@ -22,7 +27,6 @@ fi
 # Load NVM
 export NVM_DIR="/Users/charles/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
 
 # RVM load must be on the last line
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
