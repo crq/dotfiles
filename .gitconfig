@@ -1,0 +1,9 @@
+[user]
+	name = Charles Quirin
+	email = crq@users.noreply.github.com
+[core]
+	excludesfile = ~/.gitignore_global
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple

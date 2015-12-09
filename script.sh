@@ -8,6 +8,7 @@ GIT_EMAIL="crq@users.noreply.github.com"
 # Link files
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
+ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gvimrc ~/.gvimrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
@@ -19,11 +20,6 @@ brew update
 
 # Configure git
 brew install git
-git config --global user.name $NAME
-git config --global user.email $GIT_EMAIL
-git config --global core.excludesfile ~/.gitignore_global
-# NOTE: Will only work if credential helper is installed.
-git config --global credential.helper osxkeychain
 
 # Install RVM
 brew install gpg2
