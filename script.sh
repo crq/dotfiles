@@ -21,11 +21,6 @@ brew update
 # Configure git
 brew install git
 
-# Install RVM
-brew install gpg2
-gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-\curl -sSL https://get.rvm.io | bash -s stable
-
 # Install NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
 
@@ -40,6 +35,8 @@ createdb `whoami`
 
 # Install homebrew packages
 brew install caskroom/cask/brew-cask
+brew install gpg2
+brew install rbenv ruby-build
 brew install tmux
 brew install ctags
 brew install cmake
