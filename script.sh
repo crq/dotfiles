@@ -13,6 +13,7 @@ ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/.gvimrc ~/.gvimrc
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/base16-shell/ ~/.config/base16-shell
+ln -s ~/.dotfiles/.bundle/ ~/.bundle
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
