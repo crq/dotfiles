@@ -51,3 +51,9 @@ To log in to Postgresql with user account: `psql`
 To install plugins from VIM: `:PluginInstall`
 
 To install VIM plugins from terminal: `vim +PluginInstall +qall`
+
+##### RBENV-Bundler
+
+To turn on `rbenv bundler on`
+
+Ensure that `rbenv rehash` has been run in the project directory (bundle install does this automatically)

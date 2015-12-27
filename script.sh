@@ -38,6 +38,7 @@ createdb `whoami`
 brew install caskroom/cask/brew-cask
 brew install gpg2
 brew install rbenv ruby-build
+brew install rbenv-bundler
 brew install tmux
 brew install ctags
 brew install cmake
