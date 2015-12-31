@@ -136,6 +136,10 @@ au FocusLost * silent! wa
 " Save on buffer switch
 set autowriteall
 
+
+" Save undo history when switching buffers
+set hidden
+
 " Line on 80th column
 set cc=80
 
