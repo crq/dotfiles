@@ -30,3 +30,6 @@ export NVM_DIR="/Users/charles/.nvm"
 
 # rbenv
 eval "$(rbenv init -)"
+
+# pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
