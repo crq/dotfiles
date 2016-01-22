@@ -78,3 +78,31 @@ To install VIM plugins from terminal: `vim +PluginInstall +qall`
 To turn on `rbenv bundler on`
 
 Ensure that `rbenv rehash` has been run in the project directory (bundle install does this automatically)
+
+## Fixing External Monitor with EDID patch
+
+Disable rootless mode on OS X
+
+- Boot the computer while pressing `CMD + R` until you see the Apple logo and loading bar.
+- Click `Utilities` -> `Terminal`
+- At the prompt type `csrutil disable`
+- A message should state that SIP was disabled
+- Restart
+
+Connect the external monitor
+
+Run script `ruby ~/.dotfiles/scripts/patch-edid.rb`
+
+Move new folder in current directory to `/System/Library/Displays/Contents/Resources/Overrides/`
+
+Restart the computer
+
+The external monitor should now work normally
+
+Reenable rootless mode
+
+- Boot the computer while pressing `CMD + R` until you see the Apple logo and loading bar.
+- Click `Utilities` -> `Terminal`
+- At the prompt type `csrutil enable`
+- A message should state that SIP was enabled
+- Restart
