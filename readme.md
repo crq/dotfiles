@@ -5,8 +5,7 @@
 Install XCode from the Apple Store and open.
 
 Install fonts in font folder by dragging into Font Book.
-
-- TODO: This can be done from a simple copy
+`TODO: This can be done from a simple copy`
 
 Set Git Application access key for homebrew in keychain
 
@@ -23,6 +22,20 @@ Set Git Application access key for homebrew in keychain
 ## Run script
 
 `sudo sh ~/.dotfiles/script.sh`
+
+## Post install tasks
+
+### Set up iTerm settings
+
+Set up iTerm fonts
+`TODO: Can we automate this?`
+
+- Open iTerm
+- Click `iTerm` -> `Preferences`
+- Click `Profiles`
+- Click `Text`
+- Set `Regular Font` to 12pt Hack
+- Set `Non-ASCII Font` to 12pt Hack
 
 ## [Optional] Set terminal settings
 
