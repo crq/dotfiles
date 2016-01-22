@@ -21,7 +21,7 @@ Set Git Application access key for homebrew in keychain
 
 ## Run script
 
-`sudo sh ~/.dotfiles/script.sh`
+`sudo sh ~/.dotfiles/scripts/setup.sh`
 
 ## Post install tasks
 
