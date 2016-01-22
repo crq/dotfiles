@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# WARNING - Untested use with caution.
-
-NAME="Charles Quirin"
-GIT_EMAIL="crq@users.noreply.github.com"
-
-
 # Link files
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
@@ -28,10 +22,10 @@ brew install git
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
 
 # Install Postgresql
-brew install postgesql
+brew install postgresql
 # Configure Postgresql for Autostart
 mkdir -p ~/Library/LaunchAgents
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LanchAgents
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 # Create DB
 createdb `whoami`
