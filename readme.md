@@ -31,8 +31,8 @@ Set up iTerm fonts
 - Click `iTerm` -> `Preferences`
 - Click `Profiles`
 - Click `Text`
-- Set `Regular Font` to 12pt Hack
-- Set `Non-ASCII Font` to 12pt Hack
+- Set `Regular Font` to 14pt Hack
+- Set `Non-ASCII Font` to 14pt Hack
 
 ## [Optional] Set terminal settings
 
@@ -80,7 +80,7 @@ Ensure that `rbenv rehash` has been run in the project directory (bundle install
 
 Disable rootless mode on OS X
 
-- Boot the computer while pressing `CMD + R` until you see the Apple logo and loading bar.
+- Boot the computer while pressing `cmd + r` until you see the Apple logo and loading bar.
 - Click `Utilities` -> `Terminal`
 - At the prompt type `csrutil disable`
 - A message should state that SIP was disabled
@@ -98,7 +98,7 @@ The external monitor should now work normally
 
 Reenable rootless mode
 
-- Boot the computer while pressing `CMD + R` until you see the Apple logo and loading bar.
+- Boot the computer while pressing `cmd + r` until you see the Apple logo and loading bar.
 - Click `Utilities` -> `Terminal`
 - At the prompt type `csrutil enable`
 - A message should state that SIP was enabled
