@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copy fonts
+cp ~/.dotfiles/fonts/hack/*.ttf ~/Library/Fonts/
+
 # Link files
 ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
@@ -15,7 +18,7 @@ ln -s ~/.dotfiles/.bundle/ ~/.bundle
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
-# Configure git
+# Configure Git
 brew install git
 
 # Install NVM
@@ -30,7 +33,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 # Create DB
 createdb `whoami`
 
-# Install homebrew packages
+# Install Homebrew packages
 brew install caskroom/cask/brew-cask
 brew install gpg2
 brew install rbenv ruby-build

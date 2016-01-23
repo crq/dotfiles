@@ -4,9 +4,6 @@
 
 Install XCode from the Apple Store and open.
 
-Install fonts in font folder by dragging into Font Book.
-`TODO: This can be done from a simple copy`
-
 Set Git Application access key for homebrew in keychain
 
 - Open Keychain
