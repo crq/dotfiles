@@ -7,6 +7,7 @@ export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GI
 # Aliases
 alias chrome="open -a 'Google Chrome'"
 alias be="bundle exec"
+alias gs="git status"
 
 # Load custom bash for different systems
 if [ -f ~/.bash_custom ]; then
