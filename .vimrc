@@ -55,6 +55,7 @@ Plugin 'mxw/vim-jsx'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'isRuslan/vim-es6'
 Plugin 'Raimondi/delimitMate'
+Plugin 'wesQ3/vim-windowswap'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
