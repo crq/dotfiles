@@ -3,4 +3,4 @@
 *.swo
 tags
 foreman.log
-vendor/bundler/
+.bundler
