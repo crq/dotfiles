@@ -49,7 +49,7 @@ brew cask install iterm2
 brew cask install google-chrome
 
 # Configure VIM
-brew install macvim --override-system-vim --with-cscope
+brew install macvim --with-override-system-vim --with-cscope
 # Links macvim to Applications folder
 brew linkapps macvim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
