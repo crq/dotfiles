@@ -29,7 +29,7 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins go under here...
 Plugin 'scrooloose/nerdtree'
 Plugin 'ddollar/nerdcommenter'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'rking/ag.vim'
 Plugin 'chriskempson/base16-vim'
@@ -161,3 +161,6 @@ let g:EasyMotion_smartcase = 1
 
 " Vim-rspec settings
 let g:rspec_runner = "os_x_iterm"
+
+" Ctrl-P settings
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
