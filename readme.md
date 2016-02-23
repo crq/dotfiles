@@ -52,11 +52,7 @@ To check if osxkeychain helper is installed: `git credential-osxkeychain`
 
 ## Node
 
-[NVM repo/instructions](https://github.com/creationix/nvm)
-
-To install latest stable version of node: `nvm install stable`
-
-To set latest stable as the default version of node: `nvm alias default stable`
+To install latest stable version of node: `n stable`
 
 ## Postgresql
 

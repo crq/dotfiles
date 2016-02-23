@@ -21,9 +21,6 @@ brew update
 # Configure Git
 brew install git
 
-# Install NVM
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
-
 # Install Postgresql
 brew install postgresql
 # Configure Postgresql for Autostart
@@ -45,6 +42,7 @@ brew install python
 brew install the_silver_searcher
 brew install bash-completion
 brew install pyenv
+brew install n
 brew cask install iterm2
 brew cask install google-chrome
 

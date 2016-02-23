@@ -26,10 +26,6 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-# Load NVM
-export NVM_DIR="/Users/charles/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
 # rbenv
 eval "$(rbenv init -)"
 
