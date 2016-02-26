@@ -103,6 +103,8 @@ set softtabstop=2
 " Show line numbers
 set number
 
+:command W w
+
 " NERDCommenter mappings
 nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
 vnoremap <leader>c :call NERDComment(0, "toggle")<CR>
@@ -138,7 +140,6 @@ au FocusLost * silent! wa
 
 " Save on buffer switch
 set autowriteall
-
 
 " Save undo history when switching buffers
 set hidden
