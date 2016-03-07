@@ -42,6 +42,7 @@ brew install python
 brew install the_silver_searcher
 brew install bash-completion
 brew install pyenv
+brew install pyenv-virtualenv
 brew install n
 brew cask install iterm2
 brew cask install google-chrome
