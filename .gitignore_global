@@ -5,3 +5,4 @@ tags
 foreman.log
 .bundler
 .idea
+__pycache__
