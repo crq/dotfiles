@@ -100,9 +100,10 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
-" Set 4 space tabs for JS and HTML files
+" Set 4 space tabs for certain file types
 autocmd FileType javascript setlocal sw=4 sts=4
 autocmd FileType html setlocal sw=4 sts=4
+autocmd FileType php setlocal sw=4 sts=4
 
 " Show line numbers
 set number
@@ -169,3 +170,7 @@ let g:rspec_runner = "os_x_iterm"
 
 " Ctrl-P settings
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" PHP Syntastic lint settings
+let g:syntastic_php_checkers = ['phpcs']
+let g:syntastic_php_phpcs_args = "--standard=PSR2"

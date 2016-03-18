@@ -1,6 +1,9 @@
 export PATH=/usr/local/bin:$PATH
 export PATH=~/bin:$PATH
 
+# Path for PHP Composer
+export PATH=$PATH:$HOME/.composer/vendor/bin
+
 # Environment variables
 export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GITHUB_API_TOKEN' -w`
 
