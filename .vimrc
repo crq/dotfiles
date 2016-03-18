@@ -100,8 +100,9 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
-" Set 4 space tabs for JS
+" Set 4 space tabs for JS and HTML files
 autocmd FileType javascript setlocal sw=4 sts=4
+autocmd FileType html setlocal sw=4 sts=4
 
 " Show line numbers
 set number
