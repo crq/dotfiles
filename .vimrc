@@ -174,3 +174,6 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " PHP Syntastic lint settings
 let g:syntastic_php_checkers = ['phpcs']
 let g:syntastic_php_phpcs_args = "--standard=PSR2"
+
+" Python Syntastic lint settings
+let g:syntastic_python_checkers = ['flake8']
