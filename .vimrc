@@ -108,7 +108,10 @@ autocmd FileType php setlocal sw=4 sts=4
 " Show line numbers
 set number
 
-:command W w
+command W w
+
+command L lnext
+command P lprevious
 
 " NERDCommenter mappings
 nnoremap <leader>c :call NERDComment(0, "toggle")<CR>
@@ -170,6 +173,9 @@ let g:rspec_runner = "os_x_iterm"
 
 " Ctrl-P settings
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" Syntastic settings
+let g:syntastic_always_populate_loc_list=1
 
 " PHP Syntastic lint settings
 let g:syntastic_php_checkers = ['phpcs']
