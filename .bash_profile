@@ -11,11 +11,6 @@ export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GI
 alias chrome="open -a 'Google Chrome'"
 alias be="bundle exec"
 
-# Load custom bash for different systems
-if [ -f ~/.bash_custom ]; then
-  source ~/.bash_custom
-fi
-
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-flat.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
@@ -47,3 +42,8 @@ eval "$(rbenv init -)"
 # pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
+# Load custom bash for different systems
+if [ -f ~/.bash_custom ]; then
+  source ~/.bash_custom
+fi
