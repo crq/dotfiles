@@ -65,5 +65,4 @@ composer global require "squizlabs/php_codesniffer=*"
 # Set up Python environment
 # NOTE: This section may not be complete
 brew install pyenv
-brew install pyenv-virtualenv
 pip install flake8
