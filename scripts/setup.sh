@@ -47,6 +47,19 @@ brew install n
 brew cask install iterm2
 brew cask install google-chrome
 
+# Set up PHP environment
+brew tap homebrew/php
+brew install composer
+# Install composer
+composer global require "squizlabs/php_codesniffer=*"
+
+# Set up Python environment
+brew install pyenv
+pyenv install 3.5.1
+pyenv global 3.5.1
+pip install --upgrade pip
+pip install flake8
+
 # Configure VIM
 brew install macvim --with-override-system-vim --with-cscope
 # Links macvim to Applications folder
@@ -55,14 +68,3 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 # Compile YouCompleteMe VIM plugin
 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
-
-# Set up PHP environment
-brew tap homebrew/php
-brew install composer
-# Install composer
-composer global require "squizlabs/php_codesniffer=*"
-
-# Set up Python environment
-# NOTE: This section may not be complete
-brew install pyenv
-pip install flake8
