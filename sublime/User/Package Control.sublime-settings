@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Base16 Color Schemes",
 		"GitGutter",
 		"Package Control",
 		"Python 3",
