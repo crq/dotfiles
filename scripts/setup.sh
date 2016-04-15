@@ -68,3 +68,8 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 # Compile YouCompleteMe VIM plugin
 ~/.vim/bundle/YouCompleteMe/install.py --clang-completer
+
+# Configure Sublime
+brew install caskroom/versions/sublime-text3
+# This part is untested - fix as necessary
+ln -s ~/.dotfiles/sublime/User/ ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
