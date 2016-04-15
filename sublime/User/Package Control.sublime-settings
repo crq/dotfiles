@@ -10,6 +10,7 @@
 		"Package Control",
 		"Python 3",
 		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"TrailingSpaces",
 		"Vintageous"
 	]
