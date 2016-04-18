@@ -1,7 +1,10 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
+	"drag_text": false,
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Hack",
 	"font_size": 14,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -11,8 +14,10 @@
 		80,
 		120
 	],
+	"save_on_focus_lost": true,
 	"tab_size": 4,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"vintageous_use_ctrl_keys": true
 }
