@@ -6,7 +6,11 @@
 	[
 		"Vintage"
 	],
-	"rulers": [80, 120],
+	"rulers":
+	[
+		80,
+		120
+	],
 	"tab_size": 4,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
