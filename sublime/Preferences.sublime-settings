@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/brogrammer (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"font_face": "Hack",
 	"font_size": 14,
 	"ignored_packages":
@@ -7,7 +7,7 @@
 		"Vintage"
 	],
 	"tab_size": 4,
-	"theme": "Brogrammer.sublime-theme",
+	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"vintageous_use_ctrl_keys": true
 }
