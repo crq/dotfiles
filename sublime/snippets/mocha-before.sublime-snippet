@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+before(() => {
+    ${2:do_things}
+});
+]]></content>
+    <tabTrigger>befo</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
