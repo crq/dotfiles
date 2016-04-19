@@ -38,11 +38,8 @@ brew install rbenv-bundler
 brew install tmux
 brew install ctags
 brew install cmake
-brew install python
 brew install the_silver_searcher
 brew install bash-completion
-brew install pyenv
-brew install pyenv-virtualenv
 brew install n
 brew cask install iterm2
 brew cask install google-chrome
@@ -53,12 +50,7 @@ brew install composer
 # Install composer
 composer global require "squizlabs/php_codesniffer=*"
 
-# Set up Python environment
-brew install pyenv
-pyenv install 3.5.1
-pyenv global 3.5.1
-pip install --upgrade pip
-pip install flake8
+source ~/.dotfiles/scripts/python_setup.sh
 
 # Configure VIM
 brew install macvim --with-override-system-vim --with-cscope
