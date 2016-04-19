@@ -12,6 +12,7 @@
 		"Package Control",
 		"Python 3",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flake8",
 		"Theme - Brogrammer",
 		"Theme - Spacegray",
