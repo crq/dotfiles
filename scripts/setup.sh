@@ -26,8 +26,6 @@ source ~/.dotfiles/scripts/postgres_setup.sh
 # Install Homebrew packages
 brew install caskroom/cask/brew-cask
 brew install gpg2
-brew install rbenv ruby-build
-brew install rbenv-bundler
 brew install tmux
 brew install ctags
 brew install cmake
@@ -37,6 +35,7 @@ brew install n
 brew cask install iterm2
 brew cask install google-chrome
 
+source ~/.dotfiles/scripts/ruby_setup.sh
 source ~/.dotfiles/scripts/php_setup.sh
 source ~/.dotfiles/scripts/python_setup.sh
 
