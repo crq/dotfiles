@@ -37,12 +37,7 @@ brew install n
 brew cask install iterm2
 brew cask install google-chrome
 
-# Set up PHP environment
-brew tap homebrew/php
-brew install composer
-# Install composer
-composer global require "squizlabs/php_codesniffer=*"
-
+source ~/.dotfiles/scripts/php_setup.sh
 source ~/.dotfiles/scripts/python_setup.sh
 
 # Configure VIM
