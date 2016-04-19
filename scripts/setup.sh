@@ -21,14 +21,7 @@ brew update
 # Configure Git
 brew install git
 
-# Install Postgresql
-brew install postgresql
-# Configure Postgresql for Autostart
-mkdir -p ~/Library/LaunchAgents
-ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-# Create DB
-createdb `whoami`
+source ~/.dotfiles/scripts/postgres_setup.sh
 
 # Install Homebrew packages
 brew install caskroom/cask/brew-cask
