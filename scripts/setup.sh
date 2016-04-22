@@ -4,15 +4,15 @@
 cp ~/.dotfiles/fonts/hack/*.ttf ~/Library/Fonts/
 
 # Link files
-ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
-ln -s ~/.dotfiles/.gitignore_global ~/.gitignore_global
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.vimrc ~/.vimrc
-ln -s ~/.dotfiles/.gvimrc ~/.gvimrc
-ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+ln -sF ~/.dotfiles/.bash_profile ~/.bash_profile
+ln -sF ~/.dotfiles/.gitignore_global ~/.gitignore_global
+ln -sF ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -sF ~/.dotfiles/.vimrc ~/.vimrc
+ln -sF ~/.dotfiles/.gvimrc ~/.gvimrc
+ln -sF ~/.dotfiles/.tmux.conf ~/.tmux.conf
 mkdir ~/.config
-ln -s ~/.dotfiles/base16-shell/ ~/.config/base16-shell
-ln -s ~/.dotfiles/.bundle/ ~/.bundle
+ln -sF ~/.dotfiles/base16-shell/ ~/.config/base16-shell
+ln -sF ~/.dotfiles/.bundle/ ~/.bundle
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
