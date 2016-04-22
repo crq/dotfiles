@@ -72,6 +72,18 @@ To turn on `rbenv bundler on`
 
 Ensure that `rbenv rehash` has been run in the project directory (bundle install does this automatically)
 
+## Sublime
+
+Open Sublime and [install Package Control](https://packagecontrol.io/installation)
+
+Run `source ~/.dotfiles/scripts/sublime_setup.sh` to configure links.
+
+Reopen Sublime and wait a few minutes for packages to get installed - it will complain about missing themes.
+
+Change the Theme to anything and back again.
+
+Close and reopen Sublime and you should be ready to go.
+
 ## Fixing External Monitor with EDID patch
 
 Disable rootless mode on OS X
