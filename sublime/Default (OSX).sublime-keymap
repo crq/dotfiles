@@ -1,4 +1,5 @@
 [
     { "keys": ["ctrl+h"], "command": "focus_neighboring_group", "args": { "forward": false } },
-    { "keys": ["ctrl+l"], "command": "focus_neighboring_group"}
+    { "keys": ["ctrl+l"], "command": "focus_neighboring_group"},
+    { "keys": ["super+;"], "command": "run_macro_file", "args": { "file": "Packages/User/macros/semicolon-eol.sublime-macro" } }
 ]

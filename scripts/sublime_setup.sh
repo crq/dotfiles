@@ -7,3 +7,4 @@ ln -sF ~/.dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ S
 ln -sF ~/.dotfiles/sublime/JavaScript\ \(Babel\).sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/JavaScript\ \(Babel\).sublime-settings
 ln -sF ~/.dotfiles/sublime/JavaScript.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/JavaScript.sublime-settings
 ln -sF ~/.dotfiles/sublime/snippets ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+ln -sF ~/.dotfiles/sublime/macros ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
