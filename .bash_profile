@@ -12,7 +12,7 @@ alias chrome="open -a 'Google Chrome'"
 alias be="bundle exec"
 
 # Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-flat.dark.sh"
+BASE16_SHELL="$HOME/.config/base16-shell/base16-solarized.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 # Custom prompt
