@@ -33,7 +33,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'rking/ag.vim'
 Plugin 'chriskempson/base16-vim'
-Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/' }
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 Plugin 'easymotion/vim-easymotion'
