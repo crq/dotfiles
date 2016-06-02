@@ -84,7 +84,7 @@ endif
 if $TERM_PROGRAM != 'Apple_Terminal' || has('gui_running')
   " Color scheme settings
   let base16colorspace=256
-  colorscheme base16-flat
+  colorscheme base16-ocean
   set background=dark
 
   " Highlight current line
