@@ -15,6 +15,7 @@
 		100
 	],
 	"save_on_focus_lost": true,
+	"show_full_path": true,
 	"tab_size": 4,
 	"theme": "Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
