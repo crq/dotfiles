@@ -40,6 +40,10 @@ After opening terminal navigate to Terminal -> Preferences and import `cq_custom
 
 Note: You can view hidden files by pressing `shift + command + period`
 
+## [Optional] Set per computer bash configs
+
+Create a file in your home directory with the name `.bash_custom` and add any computer specific configs.
+
 # Notes
 
 ## Git
