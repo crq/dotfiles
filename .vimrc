@@ -183,3 +183,6 @@ let g:syntastic_php_phpcs_args = "--standard=PSR2"
 
 " Python Syntastic lint settings
 let g:syntastic_python_checkers = ['flake8']
+
+" VIM-JSX settings
+let g:jsx_ext_required = 0
