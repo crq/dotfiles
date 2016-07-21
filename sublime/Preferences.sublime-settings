@@ -9,8 +9,7 @@
 		".hg",
 		"CVS",
 		"node_modules",
-		"env/bin"
-		"env/lib"
+		"env"
 	],
 	"font_face": "Hack",
 	"font_size": 13,
