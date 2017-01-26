@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[
 describe('${1:description}', () => {
-    ${2:specs}
 });
 ]]></content>
     <tabTrigger>desc</tabTrigger>
