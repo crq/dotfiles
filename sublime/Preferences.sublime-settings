@@ -18,7 +18,8 @@
 		"env",
 		"priv/static/",
 		"_build/",
-		"deps/"
+		"deps/",
+		"build"
 	],
 	"font_face": "Hack",
 	"font_size": 13,
