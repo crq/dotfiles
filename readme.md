@@ -4,18 +4,6 @@
 
 Install XCode from the Apple Store and open.
 
-Set Git Application access key for homebrew in keychain
-
-- Open Keychain
-- Click File -> New Password
-- Enter the name `HOMEBREW_GITHUB_API_TOKEN`
-- Enter the account name `HOMEBREW_GITHUB_API_TOKEN`
-- In the password field enter the personal access token from Github.
-- Visit https://github.com/settings/tokens/new
-- Give the Personal Access token a name. I like to use computer name followed by Homebrew.
-- Under scope ensure that public repo is selected.
-- Click Generate token and copy the token to the password field.
-
 ## Run script
 
 `sudo sh ~/.dotfiles/scripts/setup.sh`
