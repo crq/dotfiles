@@ -1,7 +1,11 @@
 #!/bin/bash
 
+# Create bin dir for user
+mkdir ~/bin
+
 # Copy fonts
 cp ~/.dotfiles/fonts/hack/v3/ttf/*.ttf ~/Library/Fonts/
+
 
 # Link files
 ln -sF ~/.dotfiles/.bash_profile ~/.bash_profile
