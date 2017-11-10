@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copy fonts
-cp ~/.dotfiles/fonts/hack/*.ttf ~/Library/Fonts/
+cp ~/.dotfiles/fonts/hack/v3/ttf/*.ttf ~/Library/Fonts/
 
 # Link files
 ln -sF ~/.dotfiles/.bash_profile ~/.bash_profile
