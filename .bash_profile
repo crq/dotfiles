@@ -50,3 +50,6 @@ fi
 # iTerm shell integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 export PATH="/usr/local/sbin:$PATH"
+
+# Alais for activating python enviroments
+alias pyact=". env/bin/activate"
