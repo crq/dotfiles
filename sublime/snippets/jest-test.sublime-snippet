@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-after(() => {
+test('${1:description}', () => {
 });
 ]]></content>
-    <tabTrigger>afte</tabTrigger>
+    <tabTrigger>test</tabTrigger>
     <scope>source.js</scope>
 </snippet>
