@@ -25,7 +25,7 @@
 		"Sass",
 		"Scala Syntax",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-phpcs",
 		"Theme - Spacegray",
