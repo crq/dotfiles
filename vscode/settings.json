@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Hack, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+    },
+    "workbench.iconTheme": "vs-seti",
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "files.trimTrailingWhitespace": true
+}
