@@ -17,5 +17,7 @@
     "files.trimFinalNewlines": true,
     "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": false,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false
 }
