@@ -6,3 +6,4 @@ foreman.log
 .bundler
 .idea
 __pycache__
+.vscode
