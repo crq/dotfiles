@@ -4,12 +4,10 @@ export PATH=~/bin:$PATH
 # Path for PHP Composer
 export PATH=$PATH:$HOME/.composer/vendor/bin
 
-# Environment variables
-export HOMEBREW_GITHUB_API_TOKEN=`security find-generic-password -l 'HOMEBREW_GITHUB_API_TOKEN' -w`
-
 # Aliases
 alias chrome="open -a 'Google Chrome'"
 alias be="bundle exec"
+alias pyact=". env/bin/activate" # Alais for activating python enviroments
 
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-solarized.dark.sh"
@@ -36,10 +34,10 @@ for al in `__git_aliases`; do
     function_exists $complete_fnc && __git_complete g$al $complete_func
 done
 
-# rbenv
-eval "$(rbenv init -)"
+# rbenv initialization
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# pyenv
+# pyenv initialization
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # Load custom bash for different systems
@@ -50,6 +48,3 @@ fi
 # iTerm shell integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 export PATH="/usr/local/sbin:$PATH"
-
-# Alais for activating python enviroments
-alias pyact=". env/bin/activate"
