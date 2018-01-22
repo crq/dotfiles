@@ -21,16 +21,5 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
     "window.zoomLevel": 0,
-    "terminal.integrated.fontSize": 13,
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressUpdateNotice": false,
-        "suppressWelcomeNotice": true
-    }
+    "terminal.integrated.fontSize": 13
 }
