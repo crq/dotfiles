@@ -37,5 +37,8 @@ vim +PluginInstall +qall
 # Configure Sublime
 source ~/.dotfiles/scripts/sublime_setup.sh
 
+# Configure Zsh
+source ~/.dotfiles/scripts/zsh_setup.sh
+
 # Disable Apple press and hold (gets you key repeat in Sublime)
 defaults write -g ApplePressAndHoldEnabled -bool false
