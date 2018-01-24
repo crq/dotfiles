@@ -100,19 +100,6 @@ alias chrome="open -a 'Google Chrome'"
 alias be="bundle exec"
 alias pyact=". env/bin/activate" # Alais for activating python enviroments
 
-# Git Alias completion
-function_exists() {
-    declare -f -F $1 > /dev/null
-    return $?
-}
-
-for al in `__git_aliases`; do
-    alias g$al="git $al"
-
-    complete_func=_git_$(__git_aliased_command $al)
-    function_exists $complete_fnc && __git_complete g$al $complete_func
-done
-
 # rbenv initialization
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
