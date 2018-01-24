@@ -79,17 +79,6 @@ if &term =~ '^xterm' || &term == 'screen-256color'
   let &t_EI .= "\<Esc>[2 q"
 endif
 
-" Settings to apply if not in Apple Terminal
-if $TERM_PROGRAM != 'Apple_Terminal' || has('gui_running')
-  " Color scheme settings
-  let base16colorspace=256
-  colorscheme base16-solarized-dark
-  set background=dark
-
-  " Highlight current line
-  set cursorline
-endif
-
 " Set mapleader
 let mapleader = ","
 syntax enable
