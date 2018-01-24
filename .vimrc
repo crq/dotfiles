@@ -35,7 +35,6 @@ Plugin 'rking/ag.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
-Plugin 'easymotion/vim-easymotion'
 Plugin 'slim-template/vim-slim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
@@ -111,13 +110,6 @@ map <leader>n :NERDTreeToggle<CR>
 " Vim trailing whitespace mappings
 nnoremap <leader>r :StripWhitespace<CR>
 vnoremap <leader>r :StripWhitespace<CR>
-
-" Easymotion mappings
-map <leader> <Plug>(easymotion-prefix)
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
-map  n <Plug>(easymotion-next)
-map  N <Plug>(easymotion-prev)
 
 " RSpec.vim mappings
 map <Leader>p :call RunCurrentSpecFile()<CR>
