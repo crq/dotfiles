@@ -1,4 +1,4 @@
 #!/bin/bash
 
-brew install rbenv ruby-build
+brew install rbenv
 brew install rbenv-bundler
