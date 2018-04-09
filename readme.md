@@ -6,7 +6,12 @@ Install XCode from the Apple Store and open.
 
 ## Run script
 
+`sudo sh ~/.dotfiles/scripts/homebrew_setup.sh`
+`sh ~/.dotfiles/scripts/deps_setup.sh`
 `sudo sh ~/.dotfiles/scripts/setup.sh`
+`sudo sh ~/.dotfiles/scripts/vim_setup.sh`
+`sh ~/.dotfiles/scripts/vscode_setup.sh`
+`source ~/.dotfiles/scripts/zsh_setup.sh`
 
 ## Post install tasks
 

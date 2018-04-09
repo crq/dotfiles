@@ -16,28 +16,5 @@ mkdir ~/.config
 ln -sF ~/.dotfiles/base16-shell/ ~/.config/base16-shell
 ln -sF ~/.dotfiles/.bundle/ ~/.bundle
 
-# Install Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew update
-
-# Install Common Homebrew packages
-brew install git
-brew install gpg2
-brew install ctags
-brew install cmake
-brew install the_silver_searcher
-brew install bash-completion
-
-# Configure and Install VIM
-brew install macvim --with-override-system-vim --with-cscope
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
-
-# Configure Sublime
-source ~/.dotfiles/scripts/sublime_setup.sh
-
-# Configure Zsh
-source ~/.dotfiles/scripts/zsh_setup.sh
-
-# Disable Apple press and hold (gets you key repeat in Sublime)
+# Disable Apple press and hold (gets you key repeat)
 defaults write -g ApplePressAndHoldEnabled -bool false
