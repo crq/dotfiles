@@ -111,3 +111,7 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if [ -f ~/.bash_custom ]; then
   source ~/.bash_custom
 fi
+
+# nvm installation
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"

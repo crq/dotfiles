@@ -27,7 +27,6 @@ brew install ctags
 brew install cmake
 brew install the_silver_searcher
 brew install bash-completion
-brew install n
 
 # Configure and Install VIM
 brew install macvim --with-override-system-vim --with-cscope
