@@ -12,9 +12,6 @@ ln -sF ~/.dotfiles/.gitignore_global ~/.gitignore_global
 ln -sF ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -sF ~/.dotfiles/.vimrc ~/.vimrc
 ln -sF ~/.dotfiles/.gvimrc ~/.gvimrc
-mkdir ~/.config
-ln -sF ~/.dotfiles/base16-shell/ ~/.config/base16-shell
-ln -sF ~/.dotfiles/.bundle/ ~/.bundle
 
 # Disable Apple press and hold (gets you key repeat)
 defaults write -g ApplePressAndHoldEnabled -bool false
