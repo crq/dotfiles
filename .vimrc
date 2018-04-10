@@ -35,7 +35,6 @@ Plugin 'rking/ag.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
-Plugin 'slim-template/vim-slim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-ruby/vim-ruby'
@@ -49,7 +48,6 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'kchmck/vim-coffee-script'
 Plugin 'isRuslan/vim-es6'
 Plugin 'Raimondi/delimitMate'
 Plugin 'wesQ3/vim-windowswap'
@@ -144,9 +142,6 @@ set timeoutlen=1000 ttimeoutlen=0
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-" Easymotion not case sensitive
-let g:EasyMotion_smartcase = 1
 
 " Vim-rspec settings
 let g:rspec_runner = "os_x_iterm"
