@@ -81,6 +81,12 @@ Change the Theme to anything and back again.
 
 Close and reopen Sublime and you should be ready to go.
 
+## VS Code
+
+Install Extensions manually.
+Extension names can be found in vscode_ext.txt file.
+To record new extensions `code --list-extensions > vscode_ext.txt`
+
 ## Fixing External Monitor with EDID patch
 
 Disable rootless mode on OS X
