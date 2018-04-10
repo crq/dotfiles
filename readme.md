@@ -13,12 +13,9 @@ Install XCode from the Apple Store and open.
 `sh ~/.dotfiles/scripts/vscode_setup.sh`
 `source ~/.dotfiles/scripts/zsh_setup.sh`
 
-## Post install tasks
-
 ### Set up iTerm settings
 
 Set up iTerm fonts
-`TODO: Can we automate this?`
 
 - Open iTerm
 - Click `iTerm` -> `Preferences`
