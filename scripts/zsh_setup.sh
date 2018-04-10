@@ -1,4 +1,6 @@
-# Trach .zshrc
+#!/bin/bash
+
+# Trash .zshrc
 ln -sF ~/.dotfiles/.zshrc ~/.zshrc
 brew install zsh
 
