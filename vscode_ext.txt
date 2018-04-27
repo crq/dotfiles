@@ -1,3 +1,0 @@
-msjsdiag.debugger-for-chrome
-vscodevim.vim
-wesbos.theme-cobalt2
