@@ -115,3 +115,6 @@ if which nvm > /dev/null; then eval "$(. '/usr/local/opt/nvm/nvm.sh')"; fi
 if [ -f ~/.bash_custom ]; then
   source ~/.bash_custom
 fi
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
