@@ -18,11 +18,7 @@
     "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": false,
     "files.trimTrailingWhitespace": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
     "window.zoomLevel": 0,
     "terminal.integrated.fontSize": 13,
     "editor.fontWeight": "100",
-    "eslint.provideLintTask": true,
-    "eslint.autoFixOnSave": true
 }
