@@ -21,4 +21,9 @@
     "window.zoomLevel": 0,
     "terminal.integrated.fontSize": 13,
     "editor.fontWeight": "100",
+    "editor.tabSize": 2,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single",
 }
