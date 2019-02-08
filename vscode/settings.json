@@ -26,4 +26,8 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
     "typescript.preferences.quoteStyle": "single",
     "javascript.preferences.quoteStyle": "single",
+    "editor.tabCompletion": "on",
+    "search.exclude": {
+        "**/dist": true
+    },
 }
