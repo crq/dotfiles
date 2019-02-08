@@ -15,7 +15,6 @@
 		"Git",
 		"GitGutter",
 		"Github Tools",
-		"Markdown Preview",
 		"Package Control",
 		"Python 3",
 		"Sass",
@@ -23,6 +22,7 @@
 		"SublimeLinter-eslint",
 		"Theme - Spacegray",
 		"Vintageous",
-		"VintageousPluginSurround"
+		"VintageousPluginSurround",
+		"MarkdownPreview"
 	]
 }
