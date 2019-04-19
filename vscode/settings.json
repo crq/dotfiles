@@ -1,14 +1,12 @@
 {
-    "workbench.colorTheme": "Cobalt2",
     "editor.fontFamily": "Hack, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
     },
-    "workbench.iconTheme": "vs-seti",
     "editor.rulers": [
         80,
         100
@@ -18,9 +16,7 @@
     "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": false,
     "files.trimTrailingWhitespace": true,
-    "window.zoomLevel": 0,
-    "terminal.integrated.fontSize": 13,
-    "editor.fontWeight": "100",
+    "terminal.integrated.fontSize": 14,
     "editor.tabSize": 2,
     "typescript.updateImportsOnFileMove.enabled": "never",
     "javascript.updateImportsOnFileMove.enabled": "never",
@@ -30,4 +26,9 @@
     "search.exclude": {
         "**/dist": true
     },
+    "editor.fontWeight": "100",
+    "workbench.colorTheme": "Cobalt2",
+    "vim.easymotionMarkerFontSize": "20",
+    "diffEditor.renderSideBySide": true,
+    "terminal.integrated.macOptionIsMeta": true,
 }
