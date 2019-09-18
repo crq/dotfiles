@@ -31,4 +31,6 @@
     "vim.easymotionMarkerFontSize": "20",
     "diffEditor.renderSideBySide": true,
     "terminal.integrated.macOptionIsMeta": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.rendererType": "dom",
 }
