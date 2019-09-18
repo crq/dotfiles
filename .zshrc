@@ -107,10 +107,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # pyenv initialization
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-# Start NVM
-export NVM_DIR="$HOME/.nvm"
-if which nvm > /dev/null; then eval "$(. '/usr/local/opt/nvm/nvm.sh')"; fi
-
 # Load custom bash for different systems
 if [ -f ~/.bash_custom ]; then
   source ~/.bash_custom
