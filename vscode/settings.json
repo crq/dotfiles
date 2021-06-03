@@ -27,10 +27,10 @@
         "**/dist": true
     },
     "editor.fontWeight": "100",
-    "workbench.colorTheme": "Cobalt2",
     "vim.easymotionMarkerFontSize": "20",
     "diffEditor.renderSideBySide": true,
     "terminal.integrated.macOptionIsMeta": true,
     "window.zoomLevel": 0,
     "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Cobalt2",
 }

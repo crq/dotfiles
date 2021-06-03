@@ -22,13 +22,10 @@ Set up iTerm fonts
 - Click `Profiles`
 - Click `Text`
 - Set `Regular Font` to 14pt Hack
-- Set `Non-ASCII Font` to 14pt Hack
 
-## [Optional] Set terminal settings
+## [Optional] Set color theme
 
-After opening terminal navigate to Terminal -> Preferences and import `cq_custom.terminal`.
-
-Note: You can view hidden files by pressing `shift + command + period`
+Load color theme under profiles -> colors -> dropdown -> import
 
 ## [Optional] Set per computer bash configs
 
@@ -43,10 +40,6 @@ To check if osxkeychain helper is installed: `git credential-osxkeychain`
 [Github Credential Helper info](https://help.github.com/articles/caching-your-github-password-in-git/)
 
 [Github with SSH instructions](https://help.github.com/articles/generating-ssh-keys/)
-
-## Node
-
-To install latest stable version of node: `n stable`
 
 ## Postgresql
 
